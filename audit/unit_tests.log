@@ -1,0 +1,18 @@
+test_annotation_retains_values (test_minimal.MinimalTests.test_annotation_retains_values) ... ok
+test_bad_brackets (test_minimal.MinimalTests.test_bad_brackets) ... ok
+test_cluster_resampling_keeps_related_rows (test_minimal.MinimalTests.test_cluster_resampling_keeps_related_rows) ... ok
+test_curve_keeps_complete_ties (test_minimal.MinimalTests.test_curve_keeps_complete_ties) ... ok
+test_demo_end_to_end_and_id_pairing_not_row_order (test_minimal.MinimalTests.test_demo_end_to_end_and_id_pairing_not_row_order) ... ok
+test_duplicate_prediction_id_rejected (test_minimal.MinimalTests.test_duplicate_prediction_id_rejected) ... ok
+test_empty_acceptance_is_undefined (test_minimal.MinimalTests.test_empty_acceptance_is_undefined) ... ok
+test_entropy_direction (test_minimal.MinimalTests.test_entropy_direction) ... ok
+test_holm (test_minimal.MinimalTests.test_holm) ... ok
+test_refuses_test_selected_threshold (test_minimal.MinimalTests.test_refuses_test_selected_threshold) ... ok
+test_stream_loader_filters_without_rewriting (test_minimal.MinimalTests.test_stream_loader_filters_without_rewriting) ... ok
+test_threshold_ties_are_kept (test_minimal.MinimalTests.test_threshold_ties_are_kept) ... ok
+test_union_event (test_minimal.MinimalTests.test_union_event) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.006s
+
+OK

@@ -1,0 +1,185 @@
+{
+  "release_version": "1.0.0rc1",
+  "status": "GO reviewable public candidate; not published",
+  "scientific_decision": "MASSIVE independent paper DROP unchanged",
+  "contains_raw_corpus": false,
+  "contains_weights": false,
+  "contains_private_paths_or_detected_credentials": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 156,
+      "sha256": "828da30e9f5f328b2acab1ad9a05a9e99116e48b4e82329f50d6f373299ac3c9"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 1103,
+      "sha256": "0340e3b848524857c2b9f3b11f66081cd5225e3ca546f0055a75948a87bd5010"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 6867,
+      "sha256": "5f1e9f42e69f3211ff30f629d18582712efedc53a9d69de30342783b1432296f"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "size_bytes": 1652,
+      "sha256": "798cea6241e04fb82b505d30e823d8fd8b657efa7def591aa007590f981440e3"
+    },
+    {
+      "path": "audit/code_provenance.json",
+      "size_bytes": 839,
+      "sha256": "499048d0d4e1a9d9b4d9faf2395d9c61ee1007732ad790c3105797aa9e0fb3a8"
+    },
+    {
+      "path": "audit/executed_commands.txt",
+      "size_bytes": 1537,
+      "sha256": "87f7435504d36f6bffe76f3308481d714e809766e76d70555e3a081c96cc4ecc"
+    },
+    {
+      "path": "audit/security_scan.json",
+      "size_bytes": 167,
+      "sha256": "8dd65c118b90172460d6b436671441d15b67c09e7408a6d03b7ae204c38ea453"
+    },
+    {
+      "path": "audit/unit_tests.log",
+      "size_bytes": 1368,
+      "sha256": "6838bc48316faa7d92b72bfb3b84611dcd2f27503a41ab395956e871bdfd8764"
+    },
+    {
+      "path": "audit/validation_results.json",
+      "size_bytes": 19622,
+      "sha256": "bac8b1c8f855bd7a40daed65473183515f873f56c86d865f4ed4a777d8ef2b20"
+    },
+    {
+      "path": "docs/LICENSE_AND_SECURITY.md",
+      "size_bytes": 3443,
+      "sha256": "08572b085e52fc74be3930c38b3d4a505cd9c481e39bf200c994022edc36e886"
+    },
+    {
+      "path": "docs/PREPUBLICATION_CHECKLIST.md",
+      "size_bytes": 1563,
+      "sha256": "0a649624952e2892efc73d96a092815e1344f0e91e8fc88ceded016195116eae"
+    },
+    {
+      "path": "docs/RUNNING.md",
+      "size_bytes": 6587,
+      "sha256": "a77e0d4a28feb6802a831d87e4f86b962753c8aedd137590af4d881d61ffaed1"
+    },
+    {
+      "path": "licenses/MASSIVE-DATA-CC-BY-4.0.txt",
+      "size_bytes": 18704,
+      "sha256": "c2e6ea015269147de02117ebdd91f30ef09831251f5345fa8365273b1db1d435"
+    },
+    {
+      "path": "pyproject.toml",
+      "size_bytes": 670,
+      "sha256": "a92ac52db42a7537204fb77b5c4ce89b0138b31f134e16f069655f2d9daf11ae"
+    },
+    {
+      "path": "results/cost_by_language.csv",
+      "size_bytes": 1477,
+      "sha256": "64f2d735575353c7ba03193a5bd35054a56cb7437ee177ca2067e79ac2a96346"
+    },
+    {
+      "path": "results/cross_language_risk_differences.csv",
+      "size_bytes": 31879,
+      "sha256": "fd78fc870bff877dda59a59d8d23a4958f60e8de7441d2adb3ad67e158a93469"
+    },
+    {
+      "path": "results/dev_thresholds.json",
+      "size_bytes": 42139,
+      "sha256": "7e3b3f64c991cb4b71b1690d41c3d23158d00f514245c856f8bbb87a8bf47671"
+    },
+    {
+      "path": "results/language_prediction_agreement.csv",
+      "size_bytes": 5018,
+      "sha256": "29733aaa3602249a517b207044f6ab895040723bf178860638f02435bc25bb16"
+    },
+    {
+      "path": "results/paired_language_results.csv",
+      "size_bytes": 74074,
+      "sha256": "db973d70d00008d9eff4ec9cdc4cec9d52f59534874f51e8596dfa23b6a0f49e"
+    },
+    {
+      "path": "results/paired_model_comparison.csv",
+      "size_bytes": 1729,
+      "sha256": "33ef7d5f0e69463eb599802f48f561b4950a4f4a39a5b352bd0cd4e23dc2fcc4"
+    },
+    {
+      "path": "results/risk_coverage_summary.csv",
+      "size_bytes": 94453,
+      "sha256": "473ace93a1437acefa86a407c6eb037a18dda6a3d2449452f694f5d01293d3ee"
+    },
+    {
+      "path": "results/selective_results.csv",
+      "size_bytes": 20933,
+      "sha256": "12c79bf96e947dfea8eb3c230158d7913593d7c8a0d931cfc3e84d329c729f24"
+    },
+    {
+      "path": "results/test_summary.csv",
+      "size_bytes": 1548,
+      "sha256": "14a04b5fdfcc1c1d16df25c5e9f2d4a0083113811ce0bf1431ece91463c9091d"
+    },
+    {
+      "path": "src/massive_eval/__init__.py",
+      "size_bytes": 93,
+      "sha256": "279ef957fe2092af1794634f2b4970139e1d1105eea1bdcfc6b1ddb8f15003bc"
+    },
+    {
+      "path": "src/massive_eval/__main__.py",
+      "size_bytes": 29,
+      "sha256": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3"
+    },
+    {
+      "path": "src/massive_eval/cli.py",
+      "size_bytes": 4943,
+      "sha256": "081fa08bed61e993cb54cea33ac1ec46f0665950a638f3e845796546b8b3e39d"
+    },
+    {
+      "path": "src/massive_eval/core.py",
+      "size_bytes": 2327,
+      "sha256": "9622342a62146b640283ccecce0094860dc834626320efba4b66b805635d2794"
+    },
+    {
+      "path": "src/massive_eval/evaluation.py",
+      "size_bytes": 4390,
+      "sha256": "df1527ea89bfd6c86d9035e242e0a4eb661d51f295c584fb95b1b10335efba60"
+    },
+    {
+      "path": "src/massive_eval/io.py",
+      "size_bytes": 2363,
+      "sha256": "82daaaccd44f90fda90b1ba789fe7db4b87f8b687d6d4abf53c93ccd3f26287e"
+    },
+    {
+      "path": "src/massive_eval/prediction.py",
+      "size_bytes": 2525,
+      "sha256": "0e4cdd549a5405087d78d786f0940de601e65aaeada2aaa312b09f18a586c2de"
+    },
+    {
+      "path": "src/massive_eval/raw_audit.py",
+      "size_bytes": 20845,
+      "sha256": "bf42c5e59b092ac995d363d61f425312206ad017ad38be2ae074d031dd82c58a"
+    },
+    {
+      "path": "src/massive_eval/round11.py",
+      "size_bytes": 21763,
+      "sha256": "53388403fd1c734d37273e21b141b2fa80a9b778ef1685d5bd815b632214ab60"
+    },
+    {
+      "path": "tests/test_minimal.py",
+      "size_bytes": 3614,
+      "sha256": "ef29d212c3027e69a9a9f0a9d3b96bf8c04a4265089b2d087ea707922f6a341b"
+    },
+    {
+      "path": "tools/audit_release.py",
+      "size_bytes": 2137,
+      "sha256": "1df8b81df42b547bddc522cf128edb1970f90276afcbdbc6ad208782d5e3b7de"
+    },
+    {
+      "path": "tools/verify_frozen_outputs.py",
+      "size_bytes": 1866,
+      "sha256": "ce99303eba1f4014f8a22a03b1168b60af654800f9825cdae1c48c70195a0453"
+    }
+  ]
+}

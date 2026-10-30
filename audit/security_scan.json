@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "scanned_files": 34,
+  "findings": [],
+  "limits": "Pattern and file-type audit only; not an exhaustive legal or secret-detection guarantee"
+}

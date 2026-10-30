@@ -1,0 +1,16 @@
+Executed command families below have their working directory and paths normalized for public portability. Original local commands ran from the project root; private absolute paths and raw logs are not included.
+
+PYTHONPATH=src python -m unittest discover -s tests -v
+PYTHONPATH=src python -m massive_eval demo --out LOCAL/demo
+PYTHONPATH=src python -m massive_eval evaluate --predictions PRIVATE/round10/test_predictions.csv --thresholds PRIVATE/round10/dev_thresholds.json --output LOCAL/selective.csv
+PYTHONPATH=src python -m massive_eval curve --predictions PRIVATE/round10/test_predictions.csv --output LOCAL/curves.csv
+PYTHONPATH=src python -m massive_eval paired --predictions PRIVATE/round10/test_predictions.csv --thresholds PRIVATE/round10/dev_thresholds.json --output LOCAL/paired.csv
+PYTHONPATH=src python -m massive_eval replay-round11 --round10 PRIVATE/round10 --round9 PRIVATE/round9 --out LOCAL/round11_replay
+python -m pip wheel --no-deps --no-build-isolation --no-index --wheel-dir LOCAL/wheels LOCAL/build_source
+python -m pip install --no-index --no-deps --target LOCAL/installed LOCAL/wheels/massive_selective_eval-1.0.0rc1-py3-none-any.whl
+PYTHONPATH=LOCAL/installed python -m massive_eval demo --out LOCAL/installed_demo
+python tools/audit_release.py
+
+Inference adapters were separately run on six synthetic unlabeled inputs using four existing local model bundles; no historical test inference was repeated.
+
+python tools/verify_frozen_outputs.py --round10 PRIVATE/round10 --round11 PRIVATE/round11 --replay LOCAL

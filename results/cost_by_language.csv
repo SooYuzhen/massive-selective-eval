@@ -1,0 +1,7 @@
+model,locale,train_and_dev_selection_wall_seconds,test_feature_and_predict_wall_seconds,test_ms_per_row,model_bytes,allocation
+char_lr_en-US,en-US,23.198088041506708,0.07952729053795338,0.027933716381437785,16241661,measured per-language stages; includes 3 C fits and dev predictions; excludes imports and serialization
+char_lr_zh-CN,zh-CN,20.66280075116083,0.024033457040786743,0.008441677920894534,11964443,measured per-language stages; includes 3 C fits and dev predictions; excludes imports and serialization
+char_lr_ja-JP,ja-JP,28.64032437419519,0.03837795788422227,0.013480139755610212,15723814,measured per-language stages; includes 3 C fits and dev predictions; excludes imports and serialization
+minilm_shared_lr,en-US,12.86738995835185,2.249109805561602,0.7899929067655785,181140,"equal-row amortized share of measured pooled stages, not independently measured language latency; model_bytes is one shared head, not tripled; encoder weights excluded"
+minilm_shared_lr,zh-CN,12.86738995835185,2.249109805561602,0.7899929067655785,181140,"equal-row amortized share of measured pooled stages, not independently measured language latency; model_bytes is one shared head, not tripled; encoder weights excluded"
+minilm_shared_lr,ja-JP,12.86738995835185,2.249109805561602,0.7899929067655785,181140,"equal-row amortized share of measured pooled stages, not independently measured language latency; model_bytes is one shared head, not tripled; encoder weights excluded"

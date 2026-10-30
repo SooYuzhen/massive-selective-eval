@@ -1,0 +1,20 @@
+[
+  {
+    "source": "outputs/massive_round10_automatic/common.py",
+    "source_sha256": "9622342a62146b640283ccecce0094860dc834626320efba4b66b805635d2794",
+    "release_path": "src/massive_eval/core.py",
+    "change": "verbatim project-owned analytical implementation"
+  },
+  {
+    "source": "outputs/massive_original_round9/audit_massive.py",
+    "source_sha256": "bf42c5e59b092ac995d363d61f425312206ad017ad38be2ae074d031dd82c58a",
+    "release_path": "src/massive_eval/raw_audit.py",
+    "change": "verbatim project-owned analytical implementation"
+  },
+  {
+    "source": "outputs/massive_round11_final/round11_reanalysis.py",
+    "source_sha256": "53388403fd1c734d37273e21b141b2fa80a9b778ef1685d5bd815b632214ab60",
+    "release_path": "src/massive_eval/round11.py",
+    "change": "verbatim project-owned analytical implementation"
+  }
+]
